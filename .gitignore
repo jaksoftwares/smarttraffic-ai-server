@@ -1,0 +1,57 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# If you're using Django's collectstatic
+/static/
+
+# ENV
+.env
+*.env
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Virtual environments
+venv/
+env/
+ENV/
+*.venv/
+
+# Migrations (optional — include only if auto-generated and not needed for version control)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+# Uncomment next line if you don't want to commit initial migrations
+# **/migrations/*.py
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage and testing
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
